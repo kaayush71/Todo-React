@@ -1,0 +1,30 @@
+.todos {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-box {
+  height: 4rem;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 350;
+  border: 2px solid black;
+  transition: 0.2s ease-out;
+  margin: 10px;
+  box-shadow: none;
+  border-radius: 100px;
+}
+.card-box:hover {
+  transform: scale(1.08);
+  box-shadow: none;
+}
+.fas {
+  font-size: 1.4rem;
+}
+.fas:hover {
+  color: red;
+}
