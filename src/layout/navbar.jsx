@@ -15,6 +15,7 @@ const Navbar = () => {
       history.push('/login');
     } catch {
       setError('Failed to Log Out');
+      alert(error);
     }
   }
   return (

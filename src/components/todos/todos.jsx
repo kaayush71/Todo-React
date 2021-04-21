@@ -18,6 +18,7 @@ const Todos = () => {
       });
     };
     getData();
+    // eslint-disable-next-line
   }, []);
   const [data, setData] = useState('');
   // const handleChange = (e) => {

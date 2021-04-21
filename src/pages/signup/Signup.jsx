@@ -11,7 +11,7 @@ const Signup = () => {
   const emailRef = useRef();
   const passwordRef = useRef();
   const passwordConfirmRef = useRef();
-  const { signup, currentUser } = useAuth();
+  const { signup } = useAuth();
   const [error, setError] = useState('');
   const history = useHistory();
 
@@ -32,7 +32,6 @@ const Signup = () => {
       setError('Failed to create an account');
     }
   }
-  // currentUser && console.log(currentUser);
 
   return (
     <div className="container-fluid login__container">
@@ -42,7 +41,7 @@ const Signup = () => {
             <img
               className="split__left__img img-fluid"
               src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
-              alt="person-image"
+              alt="person"
             ></img>
             <h3 className="split__left__text">
               Already have an account ? <Link to="/login">Sign In</Link>

@@ -1,8 +1,8 @@
-import React from "react";
-import "./todo.css";
+import React from 'react';
+import './todo.css';
 
 const Todo = (props) => {
-  const { todo, index, deleteTodo } = props;
+  const { todo, deleteTodo } = props;
 
   return (
     <div className="todos">
