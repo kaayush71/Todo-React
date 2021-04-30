@@ -56,7 +56,6 @@ const Todos = () => {
               type="text"
               onChange={(e) => setData(e.target.value)}
               placeholder="What you want to do ...?"
-              // autoFocus
               value={data}
             ></input>
           </form>
