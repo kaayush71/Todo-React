@@ -53,7 +53,6 @@ const Signup = () => {
                 className={
                   error ? 'split__right__text_error' : 'split__right__text'
                 }
-                // className="split__right__text"
               >
                 Sign Up
                 {/* {currentUser && currentUser.email} */}
