@@ -21,9 +21,11 @@ const Navbar = () => {
   return (
     <div className="nav">
       <span className="nav-text">Todo App</span>
-      <button onClick={handleLogout} className="nav-button">
-        Logout
-      </button>
+
+        <button onClick={handleLogout} className="nav-button">
+          Logout
+        </button>  
+
     </div>
   );
 };
