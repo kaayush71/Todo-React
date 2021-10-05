@@ -95,6 +95,11 @@ const Signup = () => {
               </form>
               {/* <h3 className="split__right__other">OR</h3>
               <i class="fab fa-google-plus-g"></i> */}
+              <div className="split__right__text__responsive">
+                <h6>
+                  Already have an account ? <Link to="/login">Sign In</Link>
+                </h6>
+              </div>
             </div>
           </div>
         </div>

@@ -110,6 +110,13 @@ const Login = () => {
               </form>
               <h3 className="split__right__other">OR</h3>
               <i onClick={signInWithGoogle} class="fab fa-google-plus-g"></i>
+              
+              <div className="split__right__text__responsive">
+                <h6>
+                  Don't have an account <Link to="/signup">Sign Up</Link>
+                </h6>
+              </div>
+              
             </div>
           </div>
         </div>
